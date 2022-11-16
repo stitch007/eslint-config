@@ -2,7 +2,7 @@
   "name": "@stitch007/eslint-config-ts",
   "version": "0.1.0",
   "main": ".eslintrc.js",
-  "author": "skye007",
+  "author": "stitch007",
   "license": "MIT",
   "publishConfig": {
     "access": "public",
