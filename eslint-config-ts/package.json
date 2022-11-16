@@ -1,9 +1,18 @@
 {
-  "name": "@skye007/eslint-config-ts",
-  "version": "0.0.1",
+  "name": "@stitch007/eslint-config-ts",
+  "version": "0.1.0",
   "main": ".eslintrc.js",
   "author": "skye007",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stitch007/eslint-config"
+  },
+  "keywords": ["eslint", "typescript"],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
