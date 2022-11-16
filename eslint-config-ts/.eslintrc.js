@@ -26,8 +26,10 @@ module.exports = {
     'yarn.lock',
     '__snapshots__',
     '!.github',
-    '!.vitepress',
     '!.vscode',
+    '!.idea',
+    '*.md',
+    '*.json',
   ],
   settings: {
     'import/resolver': {
@@ -100,7 +102,6 @@ module.exports = {
     ],
     'no-return-await': 'off',
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 1 }],
-    'jsx-quotes': ['warn', 'prefer-double'],
     'no-trailing-spaces': 'error',
     'indent': 'off',
     'no-empty': 'warn',
